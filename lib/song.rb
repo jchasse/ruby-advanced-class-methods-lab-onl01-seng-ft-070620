@@ -55,6 +55,7 @@ class Song
     # binding.pry
     song.artist_name = temp_array[0]
     song.name = temp_array[1].chomp (".mp3") #need to figure out a way to remove the .mp3
+    song
   end
 
   def self.create_from_filename(filename)
